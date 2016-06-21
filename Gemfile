@@ -36,15 +36,15 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'puma'
 gem 'rack-timeout'
 
+# Make go fast!
+gem 'redis-rails'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  # Make go fast!
-  gem 'redis-rails'
-  gem 'redis-store'
 end
 
 group :development do

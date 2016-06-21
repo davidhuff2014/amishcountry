@@ -44,6 +44,7 @@ group :development, :test do
   gem 'byebug'
   # Make go fast!
   gem 'redis-rails'
+  gem 'redis-store'
 end
 
 group :development do

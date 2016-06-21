@@ -351,6 +351,7 @@ DEPENDENCIES
   rails (= 4.2.6)
   rails_12factor
   redis-rails
+  redis-store
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spree (~> 3.1.0)

@@ -56,6 +56,7 @@ Rails.application.configure do
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
+
   # NOTE: ENV vars aren't available during slug compilation, so must check if they exist:
   if ENV["REDISCLOUD_URL"]
     # config.cache_store = :redis_store, ENV["REDISCLOUD_URL"], { expires_in: 90.minutes }

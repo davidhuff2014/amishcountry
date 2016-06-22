@@ -56,8 +56,10 @@ Rails.application.configure do
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
-  # This is for heroku so the asset precompile does not fail
-  config.cache_store = :redis_store if ENV['REDISCLOUD_URL']
+  # NOTE: ENV vars aren't available during slug comiplation, so must check if they exist:
+  if ENV["REDISCLOUD_URL"]
+    config.cache_store = :redis_store, ENV["REDISCLOUD_URL"], { expires_in: 90.minutes }
+  end
 
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.

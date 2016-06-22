@@ -37,6 +37,6 @@ module Amishcountry
     config.active_record.raise_in_transactional_callbacks = true
 
     # Keep heroku asset precompile from failing
-    config.assets.initialize_on_precompile = false
+    # config.assets.initialize_on_precompile = false
   end
 end

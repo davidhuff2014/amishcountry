@@ -7,6 +7,7 @@ gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
 gem 'spree_slider', github: 'spree-contrib/spree_slider', branch: '3-1-stable'
 gem 'aws-sdk'
+# gem 'aws-sdk', '< 2.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'

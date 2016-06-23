@@ -21,7 +21,7 @@ attachment_config = {
         large:    "600x600>"
     },
 
-    path:          "/amishcountry/products/:id/:style/:basename.:extension",
+    path:          "/products/:id/:style/:basename.:extension",
     default_url:   "noimage/:style.png",
     default_style: "product",
 }

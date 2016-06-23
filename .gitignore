@@ -14,3 +14,6 @@
 
 # Ignore all RubyMine files.
 /.idea
+
+# Protect some secrets
+/config/initializers/application.yml

@@ -21,7 +21,7 @@ attachment_config = {
         large:    "600x600>"
     },
 
-    path:          "/products/:id/:style/:basename.:extension",
+    path:          "/amishcountry/products/:id/:style/:basename.:extension",
     default_url:   "noimage/:style.png",
     default_style: "product",
 }
@@ -29,7 +29,6 @@ attachment_config = {
 attachment_config.each do |key, value|
   Spree::Image.attachment_definitions[:attachment][key.to_sym] = value
 end if Rails.env.production?
-# end
 
 # Spree.config do |config|
 #   Spree.user_class = "Spree::User"

@@ -16,4 +16,4 @@
 /.idea
 
 # Protect some secrets
-/config/initializers/application.yml
+/config/application.yml

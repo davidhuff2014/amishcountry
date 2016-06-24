@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/spree-contrib/spree_recently_viewed.git
+  revision: 6a2433e4394be9285a05804fda80da8cdd0aee14
+  branch: 3-1-stable
+  specs:
+    spree_recently_viewed (3.1.0)
+      spree_core (~> 3.1.0.beta)
+
+GIT
   remote: git://github.com/spree-contrib/spree_slider.git
   revision: 2fd3914bd938f9dc3cf383a0b0a2067128243ab4
   branch: 3-1-stable
@@ -371,6 +379,7 @@ DEPENDENCIES
   spree (~> 3.1.0)
   spree_auth_devise (~> 3.1.0)
   spree_gateway (~> 3.1.0)
+  spree_recently_viewed!
   spree_slider!
   spring
   turbolinks

@@ -16,4 +16,4 @@
 /.idea
 
 # Protect some secrets
-/config/application.yml
+/config/s3_assets_spree.yml

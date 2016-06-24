@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/spree-contrib/spree_mail_settings.git
+  revision: f4488bfb74f14a0043cac6940d98828da3dabe8e
+  branch: 3-1-stable
+  specs:
+    spree_mail_settings (3.1.0)
+      spree_backend (~> 3.1.0.beta)
+
+GIT
   remote: git://github.com/spree-contrib/spree_recently_viewed.git
   revision: 6a2433e4394be9285a05804fda80da8cdd0aee14
   branch: 3-1-stable
@@ -379,6 +387,7 @@ DEPENDENCIES
   spree (~> 3.1.0)
   spree_auth_devise (~> 3.1.0)
   spree_gateway (~> 3.1.0)
+  spree_mail_settings!
   spree_recently_viewed!
   spree_slider!
   spring

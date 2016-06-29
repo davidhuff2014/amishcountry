@@ -9,7 +9,7 @@ gem 'spree_slider', github: 'spree-contrib/spree_slider', branch: '3-1-stable'
 gem 'aws-sdk'
 gem 'spree_recently_viewed', github: 'spree-contrib/spree_recently_viewed', branch: '3-1-stable'
 gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '3-1-stable'
-
+gem 'spree_address_book', github: 'spree-contrib/spree_address_book', branch: '3-1-stable'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'

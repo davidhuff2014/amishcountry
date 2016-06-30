@@ -12,3 +12,4 @@
 //= require spree/frontend/spree_auth
 //= require spree/frontend/spree_recently_viewed
 //= require spree/frontend/spree_address_book
+//= require spree/frontend/spree_reviews

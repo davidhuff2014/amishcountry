@@ -88,4 +88,4 @@ production:
   <<: *default
   database: amishcountry_production
   username: amishcountry
-  password: <%= ENV['DATABASE_URL'] %>
+  password: <%= ENV['AMISHCOUNTRY_DATABASE_PASSWORD'] %>

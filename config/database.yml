@@ -84,8 +84,8 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: amishcountry_production
-  username: postgres
-  password: <%= ENV['AMISHCOUNTRY_DATABASE_PASSWORD'] %>
+#production:
+#  <<: *default
+#  database: amishcountry_production
+#  username: postgres
+#  password: <%= ENV['DATABASE_URL'] %>

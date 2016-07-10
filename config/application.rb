@@ -38,8 +38,5 @@ module Amishcountry
 
     # Keep heroku asset precompile from failing
     # config.assets.initialize_on_precompile = false
-
-    # see if we can force spree to use S3
-    config.serve_static_assets = false if Rails.env.production?
   end
 end

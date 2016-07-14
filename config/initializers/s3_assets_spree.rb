@@ -28,6 +28,6 @@ attachment_config = {
 
 attachment_config.each do |key, value|
   Spree::Image.attachment_definitions[:attachment][key.to_sym] = value
-end if Rails.env.production?
-# end if Rails.env.test? # use this to turn of to load sample files
+# end if Rails.env.production?
+end if Rails.env.test? # use this to turn of to load sample files
 # end # allow to run for test and development as well as production using environment_variables.rb

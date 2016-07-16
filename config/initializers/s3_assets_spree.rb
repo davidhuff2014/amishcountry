@@ -21,21 +21,8 @@ attachment_config = {
         large:    "600x600>"
     },
 
-    # path:          "/products/:id/:style/:basename.:extension",
-    # default_url:   "noimage/:style.png",
-
-    default_url:            '/products/:id/:style/:basename.:extension',
-    # path:           '/products/:id/:style/:basename.:extension',
-
-    # path:        "/spree/:class/:id/:style/:basename.:extension",
-    # default_url: "/spree/products/:id/:style/:basename.:extension",
-    # path:           "/:class/:id/:style/:basename.:extension",
-    # default_url:    "/:class/:id/:style/:basename.:extension",
-    # path:          ":rails_root/public/:class/:attachment/:id/:style/:basename.:extension",
-    # default_url:   "/:class/:attachment/:id/:style/:basename.:extension",
-
-    path:           "/spree/products/:id/:style/:basename.:extension",
-    # default_url:    "/spree/products/:id/:style/:basename.:extension",
+    path:          "/products/:id/:style/:basename.:extension",
+    default_url:   "noimage/:style.png",
     default_style: "product",
 }
 

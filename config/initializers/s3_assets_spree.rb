@@ -21,13 +21,16 @@ attachment_config = {
         large:    "600x600>"
     },
 
-    path:          "/products/:id/:style/:basename.:extension",
-    default_url:   "noimage/:style.png",
+    # path:          "/products/:id/:style/:basename.:extension",
+    # default_url:   "noimage/:style.png",
+
+    path:           "/products/:id/:style/:basename.:extension",
+    default_url:    "/products/:id/:style/:basename.:extension",
     default_style: "product",
 }
 
 attachment_config.each do |key, value|
   Spree::Image.attachment_definitions[:attachment][key.to_sym] = value
-end if Rails.env.production?
+# end if Rails.env.production?
 # end if Rails.env.test? # use this to turn of to load sample files in production
-# end # allow to run for test and development as well as production using environment_variables.rb
+end # allow to run for test and development as well as production using environment_variables.rb

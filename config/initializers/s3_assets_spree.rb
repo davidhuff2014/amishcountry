@@ -24,8 +24,11 @@ attachment_config = {
     # path:          "/products/:id/:style/:basename.:extension",
     # default_url:   "noimage/:style.png",
 
-    path:           "/products/:id/:style/:basename.:extension",
-    default_url:    "/products/:id/:style/:basename.:extension",
+    default_url:            '/products/:id/:style/:basename.:extension',
+    path:           '/products/:id/:style/:basename.:extension',
+
+    # path:           "/products/:id/:style/:basename.:extension",
+    # default_url:    "/products/:id/:style/:basename.:extension",
     default_style: "product",
 }
 

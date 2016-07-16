@@ -24,7 +24,7 @@ attachment_config = {
     # path:          "/products/:id/:style/:basename.:extension",
     # default_url:   "noimage/:style.png",
 
-    # default_url:            '/products/:id/:style/:basename.:extension',
+    default_url:            '/products/:id/:style/:basename.:extension',
     # path:           '/products/:id/:style/:basename.:extension',
 
     # path:        "/spree/:class/:id/:style/:basename.:extension",
@@ -35,7 +35,7 @@ attachment_config = {
     # default_url:   "/:class/:attachment/:id/:style/:basename.:extension",
 
     path:           "/spree/products/:id/:style/:basename.:extension",
-    default_url:    "/spree/products/:id/:style/:basename.:extension",
+    # default_url:    "/spree/products/:id/:style/:basename.:extension",
     default_style: "product",
 }
 

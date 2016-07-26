@@ -12,4 +12,4 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( ckeditor/*)
 
 # Seems overkill to me but I need vendor assets precompiled
-Rails.application.config.assets.precompile += %w( vendor/assets/images/logo/spree_50.png )
+Rails.application.config.assets.precompile += %w( vendor/assets/logo/spree_50.png )

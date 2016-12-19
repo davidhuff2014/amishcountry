@@ -1,3 +1,5 @@
+require 'raven'
+
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
@@ -19,6 +21,11 @@ module Amishcountry
       Dir.glob(File.join(File.dirname(__FILE__), "../app/overrides/*.rb")) do |c|
         Rails.configuration.cache_classes ? require(c) : load(c)
       end
+    end
+
+    Raven.configure do |config|
+      config.excluded_exceptions = [] if Rails.env.test?
+      config.dsn = 'https://83c89209a4e3497ebf7508a6d2521167:d13b40b12cc14642ab1ade11d36c5f76@sentry.io/123009'
     end
 
     # Settings in config/environments/* take precedence over those specified here.

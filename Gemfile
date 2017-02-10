@@ -41,7 +41,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Unicorn as the app server
 # gem 'unicorn'
-# Use Puma recommended by heroku
+# Use Puma recommended by heroku also runs great in 500MB at DigitalOcean
 gem 'puma'
 gem 'rack-timeout'
 
